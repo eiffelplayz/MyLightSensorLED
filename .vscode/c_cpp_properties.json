@@ -2,6 +2,9 @@
     "configurations": [
         {
             "name": "Mac",
+            "defines": [
+                "USBCON"
+            ],
             "includePath": [
                 "/Applications/Arduino.app/Contents/Java/tools/**",
                 "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/**",
